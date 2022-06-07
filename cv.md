@@ -9,7 +9,7 @@
 
 ## About myself
 
-I am an engineer. I want to learn front-end development.
+I am an engineer. I want to learn front-end development
 
 ## Skills:
 
@@ -33,5 +33,5 @@ Belarusian National Technical University
 
 ## Languages:
 
-- Russian, Belurussion</br>
+- Russian, Belurussion
 - English - B1
