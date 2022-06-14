@@ -3,6 +3,8 @@ body {
   color: rgb(70, 69, 69);
   background-color: #ffffff;
   font-size: 18px;
+  width: 1200px;
+  margin: 0 auto;
 }
 h1 {
   font-family: "Nuosu SIL", serif;
@@ -17,6 +19,12 @@ h1 {
   display: inline-block;
   vertical-align: bottom;
 }
+
+.contacts ul {
+  list-style: none;
+  padding: 0;
+}
+
 .contacts li img {
   vertical-align: middle;
   margin-right: 15px;
@@ -43,6 +51,8 @@ p.fig {
   list-style-type: none;
   padding-left: 0;
   margin-left: 0;
+  display: flex;
+  justify-content: center;
 }
 .menu li {
   display: inline;
@@ -87,6 +97,7 @@ p.fig {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
+  margin: 0 auto;
 }
 .footer-icons {
   display: flex;
@@ -101,8 +112,4 @@ p.fig {
   color: #ffffff;
   font-family: "Nuosu SIL", serif;
   font-size: 20px;
-}
-body {
-  width: 650px;
-  margin: 0 auto;
 }
