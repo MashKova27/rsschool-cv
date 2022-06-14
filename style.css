@@ -1,0 +1,115 @@
+body {
+  font-family: "Nuosu SIL", serif;
+  color: rgb(70, 69, 69);
+  background-color: #ffffff;
+  font-size: 18px;
+  width: 1200px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Nuosu SIL", serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+.i {
+  background-image: url(https://laravel.ru/favicon.ico);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.contacts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts li img {
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.contacts li p {
+  display: inline;
+  vertical-align: middle;
+  font-size: 18px;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: var(--dark-gray-color);
+}
+
+p {
+  font-size: 18px;
+}
+p.fig {
+  text-align: center;
+}
+.menu {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+}
+.menu li {
+  display: inline;
+}
+.menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #5757a0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lavender;
+  border-bottom: 5px solid #535363;
+}
+.menu li {
+  margin-right: -5px;
+}
+.column {
+  width: 40%;
+  background-color: var(--gray);
+  padding: 0 50px 0 70px;
+}
+.column_main {
+  width: 60%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.cv {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+}
+.about {
+  padding: 1rem;
+  width: 35%;
+  color: rgb(71, 69, 69);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin: 0 auto;
+}
+.footer-icons {
+  display: flex;
+  margin: 0 auto;
+  padding: 0.5rem;
+  height: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #494747;
+}
+.year {
+  color: #ffffff;
+  font-family: "Nuosu SIL", serif;
+  font-size: 20px;
+}
